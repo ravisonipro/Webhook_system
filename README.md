@@ -14,35 +14,35 @@ Bundler: A gem that manages gem dependencies. It should be installed globally. Y
 1. Clone the Repository
 Clone the project repository to your local machine:
 
-    git clone https://github.com/ravisonipro/Webhook_system.git
-    cd webhook_system
+       git clone https://github.com/ravisonipro/Webhook_system.git
+       cd webhook_system
 
 2. Install Ruby Version
 If you are using a version manager like RVM, set the Ruby version to 3.0.0:
 
-   rvm install 3.0.0
-   rvm use 3.0.0
+       rvm install 3.0.0
+       rvm use 3.0.0
 
 3. Install Dependencies
 Install the necessary gems using Bundler:
 
-   bundle install
+       bundle install
    
 5. Database Setup
 Set up the database by running the following commands:
 
-   rails db:create
-   rails db:migrate
+       rails db:create
+       rails db:migrate
 
 5. Run the Server
 Start the Rails server:
 
-  rails s
+       rails s
 
 6. Running Tests
 To run the test suite, use the following command:
 
-  rspec
+       rspec
 
 
 # To interact with the webhook API for payments in the project, you can use the following curl commands:
