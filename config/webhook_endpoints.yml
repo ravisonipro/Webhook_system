@@ -1,0 +1,10 @@
+default:
+  - "http://localhost:3000/webhooks/receive"
+
+development:
+  - "http://localhost:3000/webhooks/receive"
+  - "http://localhost:3000/webhooks/receive"
+  - "http://localhost:3000/webhooks/receive"
+
+production:
+  - "http://localhost:3000/webhooks/receive"
